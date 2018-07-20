@@ -10,10 +10,10 @@ def fizzbuzz(int)
      "Buzz" # Go fizz
 
 
- elsif int % 15 == 0 # if the number int is divisible by 3
-    "Fizzbuzz" # Go fizz
+ elsif int % 3 == 0 && int % 5 == 0 # if the number int is divisible by 3
+    "FizzBuzz" # Go fizz
 
 
-else "nil"
+else
 end
 end
