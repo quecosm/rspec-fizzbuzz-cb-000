@@ -14,6 +14,6 @@ def fizzbuzz(int)
     "FizzBuzz" # Go fizz
 
 
-else
+else int % 3 !==0 && int % 5 !== 0
 end
 end
